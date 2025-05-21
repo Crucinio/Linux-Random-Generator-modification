@@ -26,11 +26,7 @@ static int handler_pre(struct kprobe *p, struct pt_regs *regs)
     pr_info("[kprobe] get_random_bytes intercepted — overwriting %d bytes\n", len);
 
     /*
-     * Overwrite the target buffer with predictable data (0x42 pattern)
-     * This happens BEFORE the real get_random_bytes executes
-     *
-     * Security Note: This is for demonstration only!
-     * Replacing crypto-grade randomness with fixed patterns is dangerous.
+     * Creating a delay
      */
     mdelay(50);
 

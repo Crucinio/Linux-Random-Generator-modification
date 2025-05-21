@@ -1,3 +1,0 @@
-/home/kapusha/University/KYPCA4/ExperimentPure80Mb/build/CMakeFiles/testRandom.dir
-/home/kapusha/University/KYPCA4/ExperimentPure80Mb/build/CMakeFiles/edit_cache.dir
-/home/kapusha/University/KYPCA4/ExperimentPure80Mb/build/CMakeFiles/rebuild_cache.dir
